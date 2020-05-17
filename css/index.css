@@ -1,0 +1,301 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+	font-family: 'Open Sans', sans-serif;
+}
+.body-header{
+
+	max-width: 1200px;
+	margin: 0 auto;
+	background-attachment: fixed;
+} 
+
+
+.nav-header nav p
+{
+	display: inline;
+	padding-right: 20px;
+}
+
+header img{
+	float: left;
+	padding-top: 10px;
+}
+.nav-header{
+
+	float: right;
+	padding-top: 20px;
+}
+.nav-header nav a{
+    font-size: 20px;
+	text-decoration: none;
+	color: #99A8A8
+}
+.nav-header nav a:hover{
+	color: green;
+
+}
+.body-header::after{
+
+	content: "";
+	clear: both;
+	display: block;
+	visibility: none;
+	background-attachment: fixed;
+}
+
+/*this is the second part after the header*/
+
+.section img{
+	padding-top: 20px;
+}
+h1, h3{
+	color: white;
+
+}
+.section p{
+ padding-top: 10px;
+}
+.section{
+
+	height: 750px;
+}
+
+.section{
+	background-image:url('../images/apps.jpg');
+	background-size: cover;
+
+}
+div.absolute {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  width: 650px;
+  height: 200px;
+  
+}
+
+div.section-box {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 600px;
+  height: 430px;
+  background-color: white;
+  border-radius: 10px;
+ 
+}
+
+.section-box h3{
+	color: black;
+}
+.section-box span{
+	padding-top: 30px;
+	/*padding-bottom:  30px;*/
+	padding-left: 30px;
+	display: inline-block;
+}
+
+.section-box span input{
+
+	background-color: #D8E6E6 ;
+	width: 250px;
+	height: 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+
+}
+.section-box  p input{
+
+    background-color: #D8E6E6 ;
+    width: 10px;
+    height: 13px;
+    border: 1px solid grey;
+    border-radius: 2px;
+
+
+}
+.section-box  p input:hover{
+       
+    background-color: #3782FA;
+
+}
+.section-box  p{
+	padding-top: 30px;
+	padding-left: 30px;
+
+}
+.section-box  h2 input
+{
+	background-color: #2E5094/*#3782FA*/ ;
+    width: 530px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.section-box  h2{
+		
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.section-box  h2 input:hover{
+   
+   background-color:  #18388F;
+
+}
+.section li{
+	
+	display: inline-block;
+	color: white;
+	padding-top: 650px;
+	
+	
+
+}
+.numbers {
+	font-size: 2.5em;
+}
+
+/*this is the third part after the login box*/
+
+.article{
+	height: /*cover*/525px;
+}
+
+.article{
+
+	background-image: url('../images/white.jpg');
+	background-size: cover;
+}
+
+.article-sub{
+
+	height: 500px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+/*this is the third part after the video*/
+
+.fourth{
+    
+     height: 650px;
+     padding-top: 20px;
+     background-color: #EDF2F2;
+
+} 
+
+.fourth-sub{
+
+	height: 500px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 80px;
+	border-top:1px solid grey;
+
+}
+
+/*this is the fifth part after the two images*/
+
+
+.fifth{
+    
+     height: 400px;
+    
+} 
+
+.fifth-sub{
+
+	height: 300px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+
+}
+.fifth-sub img{
+
+	display: inline-block;
+	padding-left: 30px;
+	padding-top: 60px;
+}
+
+/*this is the sixth part after the four images*/
+
+.sixth{
+
+	height: 450px;
+}
+.sixth{
+
+	background-image: url('../images/100days.jpg');
+}
+
+.sixth-sub{
+
+	height: 300px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
+.sixth-sub p input{
+
+	width: 150px;
+	height: 50px;
+	background-color: #8BF069;
+	border: 1px solid green;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+}
+.sixth-sub p input:hover{
+
+	 background-color: #45A127;
+	 
+}
+
+/*this is the seventh part*/
+
+.seventh{
+	height: 250px;
+}
+
+.seventh-sub{
+
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+ul.first li{
+     list-style-type:  none;
+}
+
+ul.second li{
+list-style-type:  none;
+}	
+
+ul.first li a{
+
+	text-decoration: none;
+	color: #99A8A8;
+}
+
+ul.second li a{
+
+	text-decoration: none;
+	color: #99A8A8;
+}
+
+
+
+
+
+
+
+
+
+
